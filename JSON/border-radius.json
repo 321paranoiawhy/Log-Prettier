@@ -1,0 +1,26 @@
+[
+    {
+        "top-left": "5px",
+        "top-right": "5px",
+        "bottom-right": "5px",
+        "bottom-left": "5px"
+    },
+    {
+        "top-left": "5px",
+        "top-right": "0",
+        "bottom-right": "0",
+        "bottom-left": "5px"
+    },
+    {
+        "top-left": "0",
+        "top-right": "5px",
+        "bottom-right": "5px",
+        "bottom-left": "0"
+    },
+    {
+        "top-left": "0",
+        "top-right": "0",
+        "bottom-right": "0",
+        "bottom-left": "0"
+    }
+]
