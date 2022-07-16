@@ -1,7 +1,4 @@
-const func = require("../logPrettier.js");
-// console.log(func); // { logPrettier: [Function: logPrettier] }
-const logPrettier = func.logPrettier; // or    const logPrettier = func["logPrettier"];
-
+const logPrettier = require("../logPrettier.js");
 
 // https://img.shields.io/badge/-brightgreen-brightgreen
 logPrettier("bright green", "02000");

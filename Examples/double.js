@@ -1,6 +1,4 @@
-const func = require("../logPrettier.js");
-// console.log(func); // { logPrettier: [Function: logPrettier] }
-const logPrettier = func.logPrettier; // or    const logPrettier = func["logPrettier"];
+const logPrettier = require("../logPrettier.js");
 
 // https://img.shields.io/badge/tests-477%20passed%2C%202%20failed-red
 logPrettier("tests/all passed, none failed", "00010/01020");

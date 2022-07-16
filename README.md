@@ -1,6 +1,6 @@
 # What Is This
 
-This is a simple project which provides a simple way to log prettier in the browser. It is somewhat like [`chalk`](https://github.com/chalk/chalk). Because syntax of `chalk` is too long and redundant, this project will use a more simple syntax for developers. What you only need is to choose style you want and
+This is a simple project which provides a simple way to log prettier in the browser. It is somewhat like [`chalk`](https://github.com/chalk/chalk). Because syntax of `chalk` is too long and redundant, this project will use a more simple syntax for developers. What you only need is to choose style you want.
 
 If you have some suggestions or problems, please feel free to send a pull request or open an issue on GitHub.
 
@@ -62,7 +62,7 @@ console.log("%cpassed tests%c31", "color:#fff;background-color:#555;padding:2px 
 
 ```
 ├─Examples # Some Examples
-├─JSON # JSON File
+├─JSON # JSON Files
 ├─Mapping-Table
 └─Variable # Collect Variables
 ```
@@ -98,10 +98,18 @@ console.log("%cpassed tests%c31", "color:#fff;background-color:#555;padding:2px 
 ## Install
 
 ```bash
-npm install logPrettier
+npm i log-so-easy
 ```
 
 ## Import in `Native JavaScript`
+
+```JavaScript
+const log = require("log-so-easy");
+
+console.log(log); // [Function: logPrettier]
+
+log("tests/all passed, none failed", "00010/01020");
+```
 
 ## Import in `Vue.js`
 
@@ -126,3 +134,5 @@ See Here:
 
 * [shields - GitHub](https://github.com/badges/shields)
 * [shields.io](https://shields.io/)
+* [chalk - GitHub](https://github.com/chalk/chalk)
+* [chalk - npm](https://www.npmjs.com/package/chalk)

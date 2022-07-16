@@ -81,7 +81,7 @@ function logPrettier(content, style = "00000", option) {
     // console.log("%cA%cB%cC", "color:red;", "color:blue;", "color:green;");
     // let arr = ["color:red;", "color:blue;", "color:green;"];
     // console.log("%cA%cB%cC", ...arr);
-    // return console.log();
+    // return: console.log();
 
 
     // 1. length1 === length2
@@ -90,8 +90,6 @@ function logPrettier(content, style = "00000", option) {
     let styleArray = [];
     style.forEach((item) => styleArray.push(dealWithStyle(item)));
     if (length1 === length2) {
-        // console.log(content);
-        // console.log(styleArray);
         return console.log(content, ...styleArray);
     }
     // 2. length1 > length2
@@ -100,8 +98,6 @@ function logPrettier(content, style = "00000", option) {
     else if (length1 > length2) {
         let tail = new Array(length1 - length2).fill(styleArray.at(-1));
         styleArray.push(...tail);
-        // console.log(content);
-        // console.log(styleArray);
         return console.log(content, ...styleArray);
     }
     // 3. length1 < length2
@@ -109,10 +105,8 @@ function logPrettier(content, style = "00000", option) {
     // example: console.log("%c123%456", style1, style2, style3);
     else {
         styleArray.splice(length1);
-        // console.log(content);
-        // console.log(styleArray);
         return console.log(content, ...styleArray);
     }
 }
 
-module.exports.logPrettier = logPrettier;
+module.exports = logPrettier;
