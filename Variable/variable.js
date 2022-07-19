@@ -10,5 +10,11 @@ const _fontSize = require("../JSON/font-size.json");
 
 const _base = require("../JSON/base.json");
 
+const _nodeBackGroundColor = require("../JSON/nodeBackground-color.json")
+
+const _nodeColor = require("../JSON/node-color.json")
+
+const _nodeFont = require("../JSON/node-font-property.json")
+
 // module.exports
-module.exports = { _color, _backgroundColor, _padding, _borderRadius, _fontSize, _base };
+module.exports = { _color, _backgroundColor, _padding, _borderRadius, _fontSize, _base, _nodeBackGroundColor, _nodeColor, _nodeFont };
