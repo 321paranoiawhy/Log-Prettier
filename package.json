@@ -1,6 +1,6 @@
 {
   "name": "log-so-easy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple project which provides a simple way to log prettier in the browser. It is somewhat like [`chalk`](https://github.com/chalk/chalk). Because syntax of `chalk` is too long and redundant, this project will use a more simple syntax for developers. What you only need is to choose style you want.",
   "main": "logPrettier.js",
   "scripts": {

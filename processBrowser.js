@@ -1,6 +1,6 @@
 const { _color, _backgroundColor, _padding, _borderRadius, _fontSize, _base } = require("./Variable/variable.js");
 
-function processBrower(content, style, option){
+function processBrowser(content, style, option) {
     let length1 = content.split("/").length;
     let length2 = style.split("/").length;
 
@@ -108,4 +108,4 @@ function processBrower(content, style, option){
     }
 }
 
-module.exports = processBrower
+module.exports = processBrowser;
